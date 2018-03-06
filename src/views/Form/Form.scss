@@ -243,7 +243,7 @@ select {
       // All the div's (except the first) are treated as
       // subtext.
       > div:not(:first-of-type) {
-        font-size: smaller;
+        font-size: small;
         margin-top: -3rem;
       }
     }
@@ -265,7 +265,7 @@ select {
 
     &.no-toggle.checked,
     &.no-toggle:hover {
-      color: initial;
+      color: inherit;
       border: none;
       background: transparent;
     }
@@ -364,7 +364,7 @@ select {
 
   &.disabled {
     label {
-      cursor: initial;
+      cursor: inherit;
       background: $eapp-grey-light;
 
       &.usa-input-focus,
